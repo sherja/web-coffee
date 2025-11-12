@@ -1,0 +1,43 @@
+header {
+nav{
+display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 0 0 0;
+padding: 1rem 0 0 0;
+.navigation {
+
+.search-form{
+
+    background:white;
+    position: relative;
+    .icon-search {
+        position: absolute;
+        left: 0;
+        top: 0.25rem;
+        z-index: 1;
+
+    }
+    .input-search {
+
+        border: none;
+        padding: 0.5rem 0.5rem 0.5rem 2rem;
+
+    }
+
+}
+
+
+}
+}
+}
+
+.section-intro-banner {
+
+font-feature-settings: "abvm";
+color: white;
+font-size: 6rem;
+font-weight: 400;
+
+
+}

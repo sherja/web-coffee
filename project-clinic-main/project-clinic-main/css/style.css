@@ -1,0 +1,159 @@
+* {
+
+margin: 0 0 0 0;
+padding: 0 0 0 0;
+
+}
+
+body {
+background-color: #e98a1e;
+font-size: 16px;
+font-family: "Montserrat", sans-serif;
+
+}
+/*Generic CSS Block */
+
+:root {
+    primary-color:#29a19c;
+}
+
+
+h3, h4, h5, h6 { 
+        margin: 0 0 1.5rem 0;
+ 
+    
+}
+
+h1, h2 { 
+        margin: 0 0 1rem 0;
+ 
+    
+}
+
+h1, h2{ font-family: "Montserrat", sans-serif;
+}
+
+p {
+margin: 0 0 1.5rem 0;
+line-height: 1.3rem;
+
+
+}
+input, button{
+
+font-family: "Montserrat", sans-serif;
+}
+
+
+.container{
+
+    width: 100%;
+    max-width: 1320px;
+    margin: 0 auto;
+
+}
+
+.align-items-center {
+
+        align-items: center;
+
+
+}
+
+.d-flex {
+
+    display:flex;
+}
+/*Header CSS */
+.section-intro-banner{ h1 {color: white;
+                        font-size: 6rem;
+                        font-weight: 400;  }
+                       h3  { color: wheat; }
+                        p { color: wheat;
+
+                            button{
+                                background-color: aqua;
+                                color: wheat; }
+                            }
+                                }
+
+.btn {
+
+border: none;
+font-size: 1.25rem;
+font-weight: 700;
+padding:0.5rem 1rem;
+border-radius: 0.5rem;
+cursor:pointer;
+color: black;
+background-color: white;
+}
+
+.btn.btn-primary {
+
+             }
+
+
+header  { 
+            Nav {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    margin: 0 2rem 0 0;
+                    padding: 2rem 0 0 0;
+               
+                    .navigation {
+                    
+                                ul  {
+                                    display: flex;
+                                    list-style: none;
+                                    gap: 2rem;
+                                    
+                                    li {
+                                            color: white;
+                                    
+                                    
+                                            a {
+                                                font-size: 1rem;
+                                                
+                                                font-weight: 700;
+                                                color: white;
+                                                text-decoration: none;
+                                                position: relative;
+                                                            
+                                                &:before   {
+                                                                content: "";
+                                                                position: absolute;
+                                                                left: 0;
+                                                                bottom: -.5rem;
+                                                                right: 0;
+                                                                height: 0.25rem;
+                                                                background-color: transparent;
+
+
+                                                            }
+
+                                                &:hover {
+                                                        &::before{
+
+                                                            background-color: aqua;
+                                                        }
+
+
+                                                }
+
+                                                        
+
+
+                                                }
+                                                
+                                                
+
+                                              }
+
+                                        }
+
+                                    }
+                            }
+                }
+        }
