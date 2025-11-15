@@ -15,7 +15,7 @@ font-family: "Montserrat", sans-serif;
 /*Generic CSS Block */
 
 :root {
-    primary-color:#29a19c;
+    -ct-primary-color: #29a19c ;
 }
 
 
@@ -33,6 +33,10 @@ h1, h2 {
 
 h1, h2{ font-family: "Montserrat", sans-serif;
 }
+
+h1, h2{ font-family: "Montserrat", sans-serif;
+}
+
 
 p {
 margin: 0 0 1.5rem 0;
@@ -76,7 +80,19 @@ font-family: "Montserrat", sans-serif;
                                 background-color: aqua;
                                 color: wheat; }
                             }
-                                }
+                        }
+
+ 
+.bg-pattern{
+
+      background-repeat: no-repeat;
+      background-position: center;
+      background-size: cover;
+      min-height: 700px;
+
+   
+}                       
+
 
 .btn {
 
@@ -91,7 +107,8 @@ background-color: white;
 }
 
 .btn.btn-primary {
-
+    color:black;
+    background-color: var(-ct-primary-color)
              }
 
 
